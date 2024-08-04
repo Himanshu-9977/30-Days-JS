@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM</title>
+    <style>
+      html,
+      body {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: left;
+        flex-direction: column;
+        padding-left: 30px;
+        gap: 20px;
+        color: #000;
+      }
+      .classTarget {
+        width: 200px;
+        height: 100px;
+        background: #000;
+      }
+
+     
+    </style>
+  </head>
+  <body>
+    <main>
+      <div id="idTarget">Hi, hello !!!</div>
+      <div>
+        <img
+          width="300"
+          src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8bW9kZWx8ZW58MHx8MHx8fDA%3D"
+          alt=""
+        />
+      </div>
+      <div class="classTarget"></div>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse aperiam,
+        enim in hic culpa maiores, fugit praesentium, dolor quas dolorum et ex
+        nobis!
+      </p>
+      <button onclick="removeElement()">Remove</button>
+      <ul></ul>
+    
+
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
